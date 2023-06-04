@@ -11,7 +11,7 @@ spring:
           uri: https://github.com/sanchezih/dla-microservices.git
           searchPaths: config-data
           username: sanchezih
-          password: ${CLOUD_SERVER_PASSWORD}
+          password: ${DLA_MS_PASSWD}
   security:
     user:
       name: root
