@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sanchezih/dla-microservicios.git
+          searchPaths: config-data
+          username: sanchezih
+          password: ${CLOUD_SERVER_PASSWORD}
+  security:
+    user:
+      name: root
+      password: s3cr3t
