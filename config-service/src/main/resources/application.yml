@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/sanchezih/dla-microservicios.git
+          uri: https://github.com/sanchezih/dla-microservices.git
           searchPaths: config-data
           username: sanchezih
           password: ${CLOUD_SERVER_PASSWORD}
