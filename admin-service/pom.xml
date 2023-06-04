@@ -7,24 +7,20 @@
 		<version>2.6.3</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-
 	<groupId>com.github.sanchezih</groupId>
 	<artifactId>admin-service</artifactId>
 	<version>1.0</version>
 	<name>admin-service</name>
 	<description>Admin Service</description>
-	
 	<properties>
 		<java.version>11</java.version>
 		<spring-boot-admin.version>2.6.3</spring-boot-admin.version>
 	</properties>
-	
 	<dependencies>
 		<dependency>
 			<groupId>de.codecentric</groupId>
 			<artifactId>spring-boot-admin-starter-server</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -42,7 +38,6 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -51,5 +46,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
